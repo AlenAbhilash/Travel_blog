@@ -1,0 +1,579 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bannerimg {
+    top: -180px;
+    width: 100%;
+    position: relative;
+    clip-path: inset(180px 0 0 0);
+}
+
+nav {
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    top: 0.01px;
+    background-color: transparent;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    z-index: 999;
+}
+nav.scrolled{
+    background-color: white;
+}
+.navroute {
+    margin-top: 55px;
+    display: flex;
+    gap: 35px;
+    margin-left: 600px;
+}
+
+.route {
+    color: black;
+    font-weight: 400;
+}
+
+.route {
+    color: black;
+    font-weight: 400;
+}
+
+.route1 {
+    border-color: black;
+    top: 44%;
+    right: 4%;
+    position: absolute;
+    background-color: transparent;
+    width: 90px;
+    height: 47px;
+}
+
+.route1:hover{
+    border:transparent;
+    border-color: transparent;
+    background-color: black;
+    color: white;
+    transition: all 0.4s ease-in;
+}
+
+.container1 {
+    display: flex;
+    gap: 20px;
+}
+
+.box1 {
+    width: 250px;
+    height: 100px;
+    background-color: rgb(243, 221, 193);
+    position: relative;
+    margin-top: 200px;
+    left: 10%;
+}
+
+.navimg {
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 230px;
+    height: 85px;
+}
+
+.firsttravel {
+    font-size: 17px;
+    font-weight: 500;
+    width: 400px;
+}
+
+.wewant {
+    font-size: 17px;
+    font-weight: bold;
+    width: 400px;
+}
+
+.firstpara {
+    margin-left: 200px;
+}
+
+.fisrttarvelimge1 {
+    margin-right: 200px;
+    width: 350px;
+
+}
+
+.readmore {
+    width: 70px;
+    font-size: 8px;
+    border-color: transparent;
+    margin-top: 10px;
+    margin-left: 150px;
+}
+
+.ourtravle {
+    color: black;
+    font-size: 15px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.arrowcruveicon {
+    width: 600px;
+    margin-left: 430px;
+}
+
+.social {
+    width: 40px;
+    margin-left: 10px;
+    justify-content: space-around;
+}
+
+.container2 {
+    margin-top: 200px;
+    text-align: center;
+}
+
+h5 {
+    padding: 20px;
+}
+
+h6 {
+    margin: 50px;
+}
+
+.imgblog {
+    width: 250px;
+    height: 200px;
+}
+
+#conatiner3 {
+    margin-top: 30px;
+    display: inline-block;
+    margin-left: 240px;
+    display: flex;
+    gap: 70px;
+    height: 350px;
+
+}
+
+.recentblog {
+    width: 300px;
+    height: 50px;
+    color: rgb(243, 221, 193);
+    border: 2px solid rgb(243, 221, 193);
+    background-color: transparent;
+    text-align: center;
+    transition: all 0.4s ease-in;
+    font-size: 12px;
+
+}
+
+.recentblog:hover {
+    color: black;
+    background-color: rgb(243, 221, 193);
+}
+
+.banner2 {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+#banner3m {
+    text-align: center;
+    position: relative;
+}
+
+.discover {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    left: 34%;
+    top: 50%;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+}
+
+.costarica {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    left: 35%;
+    top: 58%;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    font-size: 80px;
+}
+
+.blogtravel {
+    width: 300px;
+    position: relative;
+    height: 300px;
+}
+
+.blogimg {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+#blog {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+    margin-left: 300px;
+    margin-right: 200px;
+}
+
+.blogpara {
+    font-family: 'Montserrat', sans-serif;
+    left: 10%;
+    color: white;
+    top: 50%;
+    position: absolute;
+}
+
+.traveljounryl {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    left: 20%;
+    top: 58%;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    font-size: 80px;
+}
+
+.findescape {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    left: 40%;
+    top: 50%;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+}
+
+#blog2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+    margin-left: 300px;
+    margin-right: 200px;
+}
+
+.blogtravel2 {
+    width: 240px;
+    height: 260px;
+}
+
+.blog2para {
+    padding: 10px;
+    font-size: 14px;
+}
+
+.blogimg2 {
+    width: 240px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.newsletter {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    left: 35%;
+    top: 50%;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+}
+
+.singup {
+    left: 45%;
+    top: 80%;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    background-color: transparent;
+    border-color: transparent;
+    width: 100px;
+}
+
+.hr {
+    display: block;
+    margin-left: 10px;
+    border: 5px solid rgb(243, 221, 193);
+}
+
+.italy {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    left: 43%;
+    top: 58%;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    font-size: 80px;
+}
+
+.blogimg4 {
+    width: 300px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.blogtravel4 {
+    width: 300px;
+    position: relative;
+    height: 350px;
+}
+
+.blogbanner {
+    margin-left: 180px;
+    width: 75%;
+    height: 800px;
+    object-fit: cover;
+}
+
+.store {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    left: 34%;
+    top: 50%;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    font-size: 60px;
+}
+
+.shop {
+    left: 45%;
+    top: 70%;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    background-color: transparent;
+    border-color: transparent;
+    width: 100px;
+}
+
+.clickme {
+    left: 45%;
+    top: 80%;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    background-color: transparent;
+    border-color: white;
+    width: 150px;
+    text-align: center;
+    border: 2px solid white;
+    height: 50px;
+}
+
+.blog5 {
+    display: flex;
+    margin-left: 100px;
+    gap: 30px;
+    margin-right: 100px;
+}
+
+.blog5child {
+    width: 260px;
+    height: 600px;
+}
+
+.blogimg5 {
+    width: 250px;
+    height: 320px;
+}
+
+.readmore1 {
+    width: 150px;
+    height: 40px;
+    color: rgb(243, 221, 193);
+    border: 2px solid rgb(243, 221, 193);
+    background-color: transparent;
+    text-align: center;
+    transition: all 0.4s ease-in;
+    font-size: 12px;
+}
+
+.readmore1:hover {
+    color: black;
+    background-color: rgb(246, 237, 231);
+}
+
+.banner3 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banner4 {
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+    clip-path: inset(180px 0 0 0);
+}
+
+.recourse2 {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    left: 43%;
+    top: 50%;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+}
+
+.traveljounryl2 {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    left: 27%;
+    top: 55%;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    font-size: 50px;
+}
+
+.clickhere {
+    left: 47%;
+    top: 68%;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    background-color: transparent;
+    border-color: transparent;
+    width: 100px;
+}
+
+.instablog {
+    margin-left: 140px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.instablogimg {
+    object-fit: cover;
+    height: 200px;
+    width: 200px;
+}
+
+footer {
+    width: 100%;
+    height: 600px;
+    background-color: rgb(246, 237, 231);
+}
+
+.footernav {
+    margin-left: 500px;
+    display: flex;
+    gap: 30px;
+}
+
+.footernavchild {
+    margin-top: 50px;
+    color: black;
+}
+
+.navfooter {
+    color: black;
+    font-size: 17px;
+    transition: all 0.4s ease-in;
+}
+
+.navfooter:hover {
+    color: rgb(243, 221, 193);
+}
+
+.icon-buycoffee {
+    width: 400px;
+}
+
+.buffecofe {
+    border: transparent;
+    width: 100px;
+    border-color: transparent;
+    background-color: transparent;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+
+.footercontent {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 150px;
+    margin-right: 100px;
+    margin-left: 150px;
+}
+
+.footerbutacoffe {
+    text-align: center;
+    width: 400px;
+}
+
+.socialfooter {
+    margin-left: 10px;
+    justify-content: space-around;
+    width: 38px;
+}
+
+.p-2 {
+    transition: all 0.4s ease-in;
+}
+
+.p-2:hover {
+    cursor: pointer;
+    color: rgb(243, 221, 193);
+}
+
+.newsleeters {
+    margin-top: 100px;
+    margin-left: 20px;
+    font-weight: 300;
+}
+
+#form-control {
+    margin-top: 20px;
+    display: inline;
+    margin-left: 50px;
+    height: 50px;
+    width: 200px;
+}
+
+#form-control::placeholder {
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.singupmain {
+    width: 70px;
+    color: white;
+    height: 30px;
+    border-radius: 20px;
+    background-color: black;
+    border: transparent;
+    border-color: transparent;
+    font-size: 12px;
+}
